@@ -1,0 +1,157 @@
+/**********************************
+  GENERAL
+***********************************/
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-image:url('http://www.whatsthescooptoday.com/wp-content/uploads/2014/02/tweed_@2X1-300x300.png');
+  background-repeat:repeat;
+  }
+  
+ #wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	width: 100%;
+  }
+  
+  img {
+	max-width: 100%;
+  }
+  
+  h3 {
+	margin: 0 0 1em 0;
+	color: white;
+  }
+  
+  header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+  }
+  
+  #logo {
+	text-align: center;
+	margin: 0;
+  }
+  
+  h1 {
+	font-family: 'Oswald', sans-serif;
+	margin: 15px 0;
+	font-size: 2.0em;
+	font-weight: normal;
+	line-height: 2.0em;
+  }
+  
+  h2 {
+	font-size: 1.0em;
+	margin: -5px 0 0;
+	font-weight: normal;
+  }
+  
+  
+  /* Navigation */
+  nav {
+	text-align: center;
+	margin: 50px 0 0;
+  }
+  
+  nav ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  nav li {
+	display: inline-block;
+  }
+  
+  nav a {
+	font-weight: 300;
+	padding: 20px 20px;
+  }
+  
+  
+  
+  /******************************
+  Gallery
+  *******************************/
+  
+  #gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  #gallery li {
+	color: #bdc3c7;
+	display: inline-block;
+	font-size: 0.70em;
+	padding: 5%;
+  }
+  
+  #gallery li a p {
+	margin: 0;
+	padding: 2%;
+	font-size: 0.60em;
+	color: white;
+	text-align: center;
+  }
+  
+  
+  /*********************************
+  Footer
+  **********************************/
+  
+  footer {
+	font-size: 1.0em;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+  }
+  
+  .social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+  }
+  
+ 
+  /*site body*/
+ body {
+	background-color: #444;
+	color: #8CDB43;
+	margin: 0;
+ }
+ 
+ header {
+   background: #444;
+   border-color: #003;
+ }
+ 
+ /* logo text */
+ 
+ h1, h2 {
+	color: white;
+ }
+ 
+ /* Nav Background On Mobile */
+ 
+ nav {
+	background: #444
+ }
+ 
+ /* Nav Link */
+ nav a.selected, nav a:hover {
+	color: orange;
+ }
